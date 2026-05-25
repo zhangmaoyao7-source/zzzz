@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>张茂瑶 | 数字媒体艺术作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="spark-canvas" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="side-decor side-decor-left" aria-hidden="true">
+    <span class="side-thread"></span>
+    <span class="side-mark side-mark-top"></span>
+    <figure class="side-mini side-mini-a">
+      <img src="assets/yinlu-main-deploy.jpg" alt="">
+    </figure>
+    <span class="side-gem side-gem-mint"></span>
+    <figure class="side-mini side-mini-b">
+      <img src="assets/chando-new-01-deploy.jpg" alt="">
+    </figure>
+    <span class="side-star side-star-a"></span>
+  </div>
+  <div class="side-decor side-decor-right" aria-hidden="true">
+    <span class="side-thread"></span>
+    <span class="side-star side-star-b"></span>
+    <figure class="side-mini side-mini-c">
+      <img src="assets/jianlibao/jianlibao-new-01-deploy.jpg" alt="">
+    </figure>
+    <span class="side-gem side-gem-pink"></span>
+    <figure class="side-mini side-mini-d">
+      <img src="assets/qingli-main-deploy.jpg" alt="">
+    </figure>
+    <span class="side-mark side-mark-bottom"></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand-mark" href="#top" aria-label="回到首页">
+      <span>ZM</span>
+      <strong>张茂瑶</strong>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="#works">作品</a>
+      <a href="#skills">技能</a>
+      <a href="#about">关于</a>
+      <a href="#contact">联系</a>
+    </nav>
+    <a class="mail-pill" href="mailto:z19262413802@qq.com">z19262413802@qq.com</a>
+  </header>
+
+  <main id="top">
+    <section class="hero-section">
+      <div class="hero-copy reveal">
+        <p class="kicker">DIGITAL MEDIA ART / 2026 PORTFOLIO</p>
+        <h1><span>赋予美学暖意，</span><span>让设计自带温情</span></h1>
+        <p class="hero-intro">
+          我是张茂瑶，数字媒体艺术专业应届生，关注 IP 形象、品牌文创视觉与电商 UI 的年轻化表达。
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn magnetic" href="#works">查看作品</a>
+          <a class="ghost-btn magnetic" href="#contact">联系我</a>
+        </div>
+      </div>
+
+      <div class="toy-stage reveal" aria-label="潮玩风个人作品集视觉">
+        <div class="orbital orbital-one"></div>
+        <div class="orbital orbital-two"></div>
+        <div class="toy-card tilt-card" data-tilt>
+          <div class="hero-photo-frame">
+            <img src="assets/hero-profile-banner-deploy.jpg" alt="张茂瑶个人介绍横幅">
+          </div>
+          <div class="tool-dock" aria-label="常用软件与 AI 工具">
+            <span class="tool-chip tool-ps"><b>Ps</b><small>Adobe</small></span>
+            <span class="tool-chip tool-gpt"><b>GPT</b><small>OpenAI</small></span>
+            <span class="tool-chip tool-lovart"><b>Lv</b><small>Lovart</small></span>
+            <span class="tool-chip tool-codex"><b>Cx</b><small>Codex</small></span>
+            <span class="tool-chip tool-gemini"><b>Gm</b><small>Gemini</small></span>
+            <span class="tool-chip tool-claude"><b>Cl</b><small>Claude</small></span>
+            <span class="tool-chip tool-figma"><b>Fg</b><small>Figma</small></span>
+            <span class="tool-chip tool-procreate"><b>Pr</b><small>Procreate</small></span>
+            <span class="tool-chip tool-midjourney"><b>Mj</b><small>Midjourney</small></span>
+          </div>
+          <div class="screen-strip">
+            <span>IP DESIGN</span>
+            <span>BRAND VISUAL</span>
+            <span>E-COM UI</span>
+          </div>
+          <div class="mini-dashboard">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="float-chip chip-one" data-parallax data-depth="18">POP</div>
+        <div class="float-chip chip-two" data-parallax data-depth="-24">UI</div>
+        <div class="float-chip chip-three" data-parallax data-depth="30">国潮</div>
+      </div>
+    </section>
+
+    <section class="marquee-band" aria-label="核心方向">
+      <div>
+        <span>IP 形象设计</span>
+        <span>品牌文创视觉</span>
+        <span>电商 UI 设计</span>
+        <span>潮玩风格</span>
+        <span>数据可视化</span>
+        <span>国潮视觉</span>
+        <span>IP 形象设计</span>
+        <span>品牌文创视觉</span>
+        <span>电商 UI 设计</span>
+        <span>潮玩风格</span>
+        <span>数据可视化</span>
+        <span>国潮视觉</span>
+      </div>
+    </section>
+
+    <section class="section-block intro-grid" id="about">
+      <div class="section-title reveal">
+        <span>01 / ABOUT</span>
+        <h2>把可爱感做成有逻辑的商业视觉。</h2>
+      </div>
+      <div class="intro-copy reveal">
+        <p>
+          我的作品集会围绕求职投递场景展开：先展示个人风格和岗位匹配度，再用 4-6 个项目证明视觉执行、IP 设定、界面组织与商业转化意识。
+        </p>
+        <ul class="value-list">
+          <li><strong>温度</strong><span>用亲和的角色与色彩建立情绪记忆点</span></li>
+          <li><strong>秩序</strong><span>用清晰版式和组件思维服务信息阅读</span></li>
+          <li><strong>转化</strong><span>让视觉更适配品牌、电商和活动传播场景</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-block" id="works">
+      <div class="section-title reveal">
+        <span>02 / SELECTED WORKS</span>
+        <h2>重点作品</h2>
+      </div>
+      <div class="works-lead reveal">
+        <p>从 IP 设定、品牌文创到作品集界面，把角色资产、传播场景和页面组织能力放在同一个作品线索里。</p>
+        <span id="filter-status" aria-live="polite">当前展示全部作品</span>
+      </div>
+      <div class="filter-bar reveal" aria-label="作品分类筛选">
+        <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">全部</button>
+        <button class="filter-btn" type="button" data-filter="ip" aria-pressed="false">IP 形象</button>
+        <button class="filter-btn" type="button" data-filter="brand" aria-pressed="false">品牌文创</button>
+        <button class="filter-btn" type="button" data-filter="ui" aria-pressed="false">界面 UI</button>
+      </div>
+      <article class="featured-case reveal" data-category="ip" data-project="chando">
+        <div class="case-copy">
+          <p class="case-label">CHANDO HIMALAYA / IP PRE-DESIGN</p>
+          <h3>自然堂喜马拉雅雪山守护 IP 形象设计</h3>
+          <p>
+            以雪山生态守护为叙事母题，将小熊猫、兔狲、雪豹转化为三位性格鲜明的品牌角色，延展至毛绒娃娃、藏式服装、侦察服、漫画分镜、文创周边与户外灯箱传播。
+          </p>
+          <div class="case-tags" aria-label="项目关键词">
+            <span>角色矩阵</span>
+            <span>生态守护叙事</span>
+            <span>毛绒玩具打样</span>
+            <span>文创延展</span>
+          </div>
+        </div>
+        <div class="case-gallery" aria-label="自然堂 IP 项目图集">
+          <figure>
+            <img src="assets/chando-new-01-deploy.jpg" alt="自然堂 CHANDO 喜马拉雅雪山守护 IP 角色比例、熊嘟嘟设定与毛绒打样长图">
+            <figcaption>角色总览、熊嘟嘟设定与毛绒打样</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/chando-new-02-deploy.jpg" alt="自然堂狲稳稳 IP 角色设定、三视图、表情包与毛绒娃娃设计长图">
+            <figcaption>狲稳稳 / 防御型雪山守护角色</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/chando-new-03-deploy.jpg" alt="自然堂豹飒飒 IP 角色设定、三视图、表情包与毛绒娃娃设计长图">
+            <figcaption>豹飒飒 / 巡逻型雪豹守护角色</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/chando-new-04-deploy.jpg" alt="自然堂 IP 藏式服装、侦察服装、文创周边与户外宣传栏展示长图">
+            <figcaption>服装造型、文创周边与户外传播延展</figcaption>
+          </figure>
+        </div>
+      </article>
+      <article class="featured-case qingli-case reveal" data-category="ip" data-project="qingli">
+        <div class="case-copy">
+          <p class="case-label">CR DOUBLE-CRANE QINGLI / IP & DERIVATIVES</p>
+          <h3>清利「鲸小利」医药品牌 IP 形象与文创衍生设计</h3>
+          <p>
+            围绕“口咽抗菌，随时清利”的核心心智，塑造兼具安全感、亲和力与记忆点的鲸系 IP「鲸小利」。角色以鲸鱼守护、清爽呼吸、抗菌屏障为视觉线索，延展至表情包、服装、场景、周边产品与户外传播，帮助消费者在口咽不适时第一时间联想到清利。
+          </p>
+          <div class="case-tags" aria-label="项目关键词">
+            <span>医药品牌 IP</span>
+            <span>安全抗菌心智</span>
+            <span>文创衍生品</span>
+            <span>产品传播场景</span>
+          </div>
+        </div>
+        <div class="case-gallery qingli-gallery" aria-label="清利鲸小利 IP 项目图集">
+          <figure>
+            <img src="assets/qingli-main-deploy.jpg" alt="清利鲸小利 IP 角色设定与视觉规范展板">
+            <figcaption>鲸小利 / 角色设定与视觉规范</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/qingli-character-deploy.jpg" alt="清利鲸小利动作、表情、服装和场景延展展板">
+            <figcaption>动作、表情、服装与场景延展</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/qingli-product-new-deploy.jpg" alt="清利鲸小利产品包装、周边和户外传播展板">
+            <figcaption>产品传播、周边系统与户外广告</figcaption>
+          </figure>
+        </div>
+      </article>
+      <article class="featured-case jianlibao-case reveal" data-category="ip brand" data-project="jianlibao">
+        <div class="case-copy">
+          <p class="case-label">JIANLIBAO / IP DERIVATIVES DESIGN</p>
+          <h3>健力宝品牌 IP 周边与文创衍生品设计</h3>
+          <p>
+            以白绿色罐身“健大宝”和橙白色罐身“健小宝”为核心角色，围绕“尽兴劲爽，中国健力宝”的品牌主张，延展休闲、运动、美食等年轻消费场景。作品覆盖盲盒、指套玩偶、积木玩具、毛绒玩具、桌游、运动套组、服装、国潮礼盒与小礼品，帮助国民品牌以更年轻、更快乐的方式进入新一代消费者心智。
+          </p>
+          <div class="case-tags" aria-label="项目关键词">
+            <span>民族品牌焕新</span>
+            <span>IP 周边衍生</span>
+            <span>年轻消费场景</span>
+            <span>国潮礼品系统</span>
+          </div>
+        </div>
+        <div class="case-gallery jianlibao-gallery" aria-label="健力宝 IP 周边衍生项目图集">
+          <figure>
+            <img src="assets/jianlibao/jianlibao-new-01-deploy.jpg" alt="健力宝 IP 周边衍生品设计角色拓展与盲盒系列">
+            <figcaption>角色拓展、盲盒系列与指套玩偶</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/jianlibao/jianlibao-new-02-deploy.jpg" alt="健力宝积木玩具、桌游、毛绒玩具、滑板与小礼品设计">
+            <figcaption>积木玩具、桌游、毛绒与小礼品</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/jianlibao/jianlibao-new-03-deploy.jpg" alt="健力宝服装、运动套组、家居物品、国潮礼品与招贴展示">
+            <figcaption>服装、运动套组、家居与国潮礼品</figcaption>
+          </figure>
+        </div>
+      </article>
+      <article class="featured-case yinlu-case reveal" data-category="brand" data-project="yinlu">
+        <div class="case-copy">
+          <p class="case-label">YINLU PEANUT MILK / CREATIVE MERCHANDISE</p>
+          <h3>银鹭花生牛奶文创周边与品牌陪伴设计</h3>
+          <p>
+            以“连吃带喝，1罐扛饿”为核心传播记忆点，将银鹭牛奶花生的能量补给属性转化为生活化文创。作品包含 AR 透卡、文创杯具、日历盲盒、桌游、毛绒、实用生活好物与广告应用，用年轻化、有趣的视觉语言构建从味觉到情感的品牌陪伴。
+          </p>
+          <div class="case-tags" aria-label="项目关键词">
+            <span>品牌文创周边</span>
+            <span>AR 互动透卡</span>
+            <span>日常生活好物</span>
+            <span>年轻化破圈沟通</span>
+          </div>
+        </div>
+        <div class="case-gallery yinlu-gallery" aria-label="银鹭花生牛奶文创周边项目图集">
+          <figure>
+            <img src="assets/yinlu-main-deploy.jpg" alt="银鹭花生牛奶文创周边设计展板">
+            <figcaption>盲盒、日历与 DIY 生活周边</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/yinlu-ar-deploy.jpg" alt="银鹭花生牛奶 AR 透卡互动展示动图">
+            <figcaption>AR 透卡 / 互动体验可视化</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/yinlu-products-deploy.jpg" alt="银鹭花生牛奶杯具、生活用品、小礼品与广告应用展板">
+            <figcaption>杯具、实用好物、小礼品与广告贴片</figcaption>
+          </figure>
+        </div>
+      </article>
+      <article class="featured-case chaoneng-case reveal" data-category="ui brand" data-project="chaoneng">
+        <div class="case-copy">
+          <p class="case-label">CHAONENG / E-COMMERCE DETAIL PAGE</p>
+          <h3>超能植愈香氛洗衣液电商详情页设计</h3>
+          <p>
+            本次详情页紧扣品牌“天然植愈、温和洁净、疗愈生活”的核心产品定位，适配淘宝、京东、拼多多等主流电商平台移动端与 PC 端浏览场景。整体以“自然植愈，温柔洗护”为核心主题，融合植物天然属性与居家治愈感，突出天然植萃、温和护衣、高效去污与持久留香四大优势，降低用户决策成本并提升下单转化。
+          </p>
+          <div class="case-tags" aria-label="项目关键词">
+            <span>电商详情页</span>
+            <span>洗护产品视觉</span>
+            <span>移动端长图</span>
+            <span>转化型信息设计</span>
+          </div>
+        </div>
+        <div class="case-gallery chaoneng-gallery" aria-label="超能植愈香氛洗衣液电商详情页项目图集">
+          <figure>
+            <img src="assets/chaoneng-detail-01-deploy.jpg" alt="超能植愈香氛洗衣液电商详情页第一段，包含产品首屏、调香故事、香氛层次与生活场景">
+            <figcaption>详情页第一段 / 产品首屏、调香故事与生活场景</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/chaoneng-detail-02-deploy.jpg" alt="超能植愈香氛洗衣液电商详情页第二段，包含720小时生香、五重留香专利、洗衣痛点与净护因子">
+            <figcaption>详情页第二段 / 留香卖点、洗护痛点与净护因子</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/chaoneng-detail-03-deploy.jpg" alt="超能植愈香氛洗衣液电商详情页第三段，包含护衣护色、绿色产品认证、洗衣指南、使用说明与产品信息">
+            <figcaption>详情页第三段 / 护衣护色、绿色认证与使用说明</figcaption>
+          </figure>
+        </div>
+      </article>
+      <article class="featured-case eightdolls-case reveal" data-category="ip brand" data-project="eightdolls">
+        <div class="case-copy">
+          <p class="case-label">DONGYANG GUANGYAO / EIGHT DOLLS EMOJI DESIGN</p>
+          <h3>东阳光药「八个娃娃」表情包设计与物料延展</h3>
+          <p>
+            为东阳光药“八个娃娃”IP设计表情包，围绕“健康守护 · 童趣科普”的核心思路展开，将药品功能、品牌温度与生活化场景结合，打造一套既实用又有传播力的表情包。项目以萌趣方式化解健康焦虑，软化用药提醒，让八个娃娃成为健康知识的亲切翻译官，并延展至贴纸、文具、钥匙扣、包袋与户外广告等传播物料。
+          </p>
+          <div class="case-tags" aria-label="项目关键词">
+            <span>品牌 IP 表情包</span>
+            <span>健康守护</span>
+            <span>童趣科普</span>
+            <span>物料延展</span>
+          </div>
+        </div>
+        <div class="case-gallery eightdolls-gallery" aria-label="东阳光药八个娃娃表情包设计项目图集">
+          <figure>
+            <img src="assets/eight-dolls-01-deploy.jpg" alt="东阳光药八个娃娃日常篇与校园篇表情包设计">
+            <figcaption>日常篇与校园篇 / 情绪表达与健康科普场景</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/eight-dolls-02-deploy.jpg" alt="东阳光药八个娃娃家庭新年篇表情包与使用场景展示">
+            <figcaption>家庭新年篇 / 节庆场景与社交使用展示</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/eight-dolls-03-deploy.jpg" alt="东阳光药八个娃娃表情包物料延展展示">
+            <figcaption>物料延展 / 贴纸、文具、钥匙扣、包袋与户外传播</figcaption>
+          </figure>
+        </div>
+      </article>
+      <div class="work-grid">
+        <article class="work-card reveal tilt-card" data-category="ip" data-project="chando" tabindex="0" role="button" aria-label="查看自然堂雪山守护 IP 完整作品" data-tilt>
+          <div class="work-visual image-visual">
+            <img src="assets/chando-new-01-deploy.jpg" alt="自然堂喜马拉雅雪山守护 IP 形象设计">
+            <span>01</span>
+          </div>
+          <div class="work-body">
+            <div class="work-meta" aria-label="项目信息">
+              <span>2025</span>
+              <span>角色矩阵</span>
+              <span>4 组延展</span>
+            </div>
+            <p class="work-type">IP 形象设计</p>
+            <h3>自然堂雪山守护 IP</h3>
+            <span class="work-desc">品牌角色矩阵 / 三视图 / 毛绒打样 / 文创传播延展</span>
+            <strong class="work-open">查看项目</strong>
+          </div>
+        </article>
+        <article class="work-card reveal tilt-card" data-category="ip" data-project="qingli" tabindex="0" role="button" aria-label="查看清利鲸小利 IP 完整作品" data-tilt>
+          <div class="work-visual image-visual qingli-thumb">
+            <img src="assets/qingli-main-deploy.jpg" alt="清利鲸小利医药品牌 IP 形象与文创衍生设计">
+            <span>03</span>
+          </div>
+          <div class="work-body">
+            <div class="work-meta" aria-label="项目信息">
+              <span>2025</span>
+              <span>医药品牌</span>
+              <span>传播物料</span>
+            </div>
+            <p class="work-type">医药品牌 IP 设计</p>
+            <h3>清利鲸小利 IP</h3>
+            <span class="work-desc">角色设定 / 表情动作 / 文创周边 / 产品与户外传播</span>
+            <strong class="work-open">查看项目</strong>
+          </div>
+        </article>
+        <article class="work-card reveal tilt-card" data-category="ip brand" data-project="jianlibao" tabindex="0" role="button" aria-label="查看健力宝 IP 周边完整作品" data-tilt>
+          <div class="work-visual image-visual jianlibao-thumb">
+            <img src="assets/jianlibao/jianlibao-new-01-deploy.jpg" alt="健力宝品牌 IP 周边与文创衍生品设计">
+            <span>04</span>
+          </div>
+          <div class="work-body">
+            <div class="work-meta" aria-label="项目信息">
+              <span>2025</span>
+              <span>国潮礼品</span>
+              <span>IP 周边</span>
+            </div>
+            <p class="work-type">品牌文创衍生</p>
+            <h3>健力宝 IP 周边设计</h3>
+            <span class="work-desc">健大宝与健小宝 / 盲盒 / 积木玩具 / 国潮礼品系统</span>
+            <strong class="work-open">查看项目</strong>
+          </div>
+        </article>
+        <article class="work-card reveal tilt-card" data-category="brand" data-project="yinlu" tabindex="0" role="button" aria-label="查看银鹭花生牛奶文创完整作品" data-tilt>
+          <div class="work-visual image-visual yinlu-thumb">
+            <img src="assets/yinlu-main-deploy.jpg" alt="银鹭花生牛奶文创周边与品牌陪伴设计">
+            <span>05</span>
+          </div>
+          <div class="work-body">
+            <div class="work-meta" aria-label="项目信息">
+              <span>2025</span>
+              <span>AR 透卡</span>
+              <span>生活好物</span>
+            </div>
+            <p class="work-type">品牌文创周边</p>
+            <h3>银鹭花生牛奶文创</h3>
+            <span class="work-desc">AR 透卡 / 日历盲盒 / 杯具好物 / 年轻化品牌陪伴</span>
+            <strong class="work-open">查看项目</strong>
+          </div>
+        </article>
+        <article class="work-card reveal tilt-card" data-category="ui brand" data-project="chaoneng" tabindex="0" role="button" aria-label="查看超能植愈香氛洗衣液电商详情页完整作品" data-tilt>
+          <div class="work-visual image-visual chaoneng-thumb">
+            <img src="assets/chaoneng-detail-01-deploy.jpg" alt="超能植愈香氛洗衣液电商详情页设计">
+            <span>06</span>
+          </div>
+          <div class="work-body">
+            <div class="work-meta" aria-label="项目信息">
+              <span>2025</span>
+              <span>电商详情页</span>
+              <span>洗护产品</span>
+            </div>
+            <p class="work-type">电商详情页设计</p>
+            <h3>超能植愈香氛洗衣液</h3>
+            <span class="work-desc">自然植愈 / 温和洁净 / 持久留香 / 转化型长图设计</span>
+            <strong class="work-open">查看项目</strong>
+          </div>
+        </article>
+        <article class="work-card reveal tilt-card" data-category="ip brand" data-project="eightdolls" tabindex="0" role="button" aria-label="查看东阳光药八个娃娃表情包设计完整作品" data-tilt>
+          <div class="work-visual image-visual eightdolls-thumb">
+            <img src="assets/eight-dolls-01-deploy.jpg" alt="东阳光药八个娃娃表情包设计">
+            <span>06</span>
+          </div>
+          <div class="work-body">
+            <div class="work-meta" aria-label="项目信息">
+              <span>2026</span>
+              <span>表情包</span>
+              <span>物料延展</span>
+            </div>
+            <p class="work-type">品牌 IP 表情包设计</p>
+            <h3>东阳光药八个娃娃</h3>
+            <span class="work-desc">健康守护 / 童趣科普 / 社交表情 / 物料延展</span>
+            <strong class="work-open">查看项目</strong>
+          </div>
+        </article>
+        <article class="work-card reveal tilt-card" data-category="ui brand" data-project="otherworks" tabindex="0" role="button" aria-label="查看其它作品合集" data-tilt>
+          <div class="work-visual image-visual otherworks-thumb">
+            <img src="assets/portfolio-preview-deploy.jpg" alt="其它作品合集封面">
+            <span>07</span>
+          </div>
+          <div class="work-body">
+            <div class="work-meta" aria-label="项目信息">
+              <span>持续补充</span>
+              <span>其它作品</span>
+              <span>合集入口</span>
+            </div>
+            <p class="work-type">其它作品合集</p>
+            <h3>其它作品</h3>
+            <span class="work-desc">海报物料 / 页面视觉 / IP 小稿 / 后续上传作品集合</span>
+            <strong class="work-open">查看项目</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block skill-section" id="skills">
+      <div class="section-title reveal">
+        <span>03 / SKILLS</span>
+        <h2>能力标签</h2>
+      </div>
+      <div class="skill-shell reveal">
+        <div class="skill-tabs" role="tablist" aria-label="技能分类">
+          <button class="skill-tab active" type="button" data-skill="brand">品牌视觉设计</button>
+          <button class="skill-tab" type="button" data-skill="ip">IP 形象设计</button>
+          <button class="skill-tab" type="button" data-skill="ecommerce">电商美工设计</button>
+          <button class="skill-tab" type="button" data-skill="video">视频剪辑</button>
+        </div>
+        <div class="skill-content">
+          <h3 id="skill-title">品牌视觉设计</h3>
+          <p id="skill-text">能够围绕品牌定位建立色彩、字体、图形、版式与传播物料体系，让视觉调性在海报、包装、周边与线上页面中保持统一。</p>
+          <div class="skill-meter" aria-hidden="true"><span id="skill-meter"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block collab-section" id="collab">
+      <div class="section-title reveal">
+        <span>04 / COMMUNICATION</span>
+        <h2>沟通协作</h2>
+      </div>
+      <div class="collab-grid reveal" aria-label="沟通协作关键词">
+        <span>执行力强</span>
+        <span>善于沟通</span>
+        <span>踏实细心</span>
+        <span>创意构思</span>
+        <span>对接统筹</span>
+        <span>临场应变</span>
+        <span>方案洽谈</span>
+      </div>
+    </section>
+
+    <section class="section-block team-value-section" id="team-value" aria-labelledby="team-value-title">
+      <div class="team-value-copy reveal">
+        <span>05 / TEAM VALUE</span>
+        <h2 id="team-value-title">我能为<br>团队带来什么</h2>
+        <p id="team-value-text">比起单纯说“我很努力”，我更希望用实际能力为团队创造价值。从视觉表达、风格统一、AI 提效到沟通落地，我希望成为可靠又有想法的设计伙伴。</p>
+        <div class="team-value-badge" aria-hidden="true">
+          <i></i>
+          <span>DESIGN VALUE</span>
+        </div>
+      </div>
+      <div class="team-value-stage reveal" aria-label="团队价值卡片">
+        <button class="team-card team-card-one is-active" type="button" data-team-value="visual" data-copy="能根据需求快速生成多套视觉方向，帮助团队更快筛选可落地的设计路径。" data-status="视觉表达 / 让想法先被看见">
+          <span class="team-card-icon icon-visual" aria-hidden="true"></span>
+          <b>01</b>
+          <h3>快速产出视觉方案</h3>
+          <p>能根据需求快速生成多套方向，便于团队筛选。</p>
+        </button>
+        <button class="team-card team-card-two" type="button" data-team-value="style" data-copy="能把系列页面、品牌物料和延展内容统一到同一套视觉语言里，让整体输出更完整。" data-status="风格统一 / 让系列内容更成体系">
+          <span class="team-card-icon icon-style" aria-hidden="true"></span>
+          <b>02</b>
+          <h3>统一品牌视觉风格</h3>
+          <p>擅长让系列页面保持统一调性。</p>
+        </button>
+        <button class="team-card team-card-three" type="button" data-team-value="ai" data-copy="能结合 Midjourney、即梦、PS、Figma 等工具提效，把创意探索、素材整理和页面执行推进得更快。" data-status="高效提案 / 用 AI 把创意推进更快">
+          <span class="team-card-icon icon-ai" aria-hidden="true"></span>
+          <b>03</b>
+          <h3>善用 AI 提升效率</h3>
+          <p>能结合 AI 工具提高设计效率。</p>
+        </button>
+        <button class="team-card team-card-four" type="button" data-team-value="teamwork" data-copy="能理解需求、及时反馈、主动推进项目落地，在沟通中把想法变成更清晰的执行方案。" data-status="协作落地 / 让沟通变成推进力">
+          <span class="team-card-icon icon-teamwork" aria-hidden="true"></span>
+          <b>04</b>
+          <h3>沟通协作意识强</h3>
+          <p>能理解需求，及时反馈，推动项目落地。</p>
+        </button>
+      </div>
+      <div class="team-value-strip reveal" aria-label="团队价值标签">
+        <button class="team-value-chip is-active" type="button" data-team-value="visual">
+          <span class="chip-mark chip-eye" aria-hidden="true"></span>
+          <strong>视觉表达</strong>
+        </button>
+        <button class="team-value-chip" type="button" data-team-value="style">
+          <span class="chip-mark chip-box" aria-hidden="true"></span>
+          <strong>风格统一</strong>
+        </button>
+        <button class="team-value-chip" type="button" data-team-value="ai">
+          <span class="chip-mark chip-bolt" aria-hidden="true"></span>
+          <strong>高效提案</strong>
+        </button>
+        <button class="team-value-chip" type="button" data-team-value="teamwork">
+          <span class="chip-mark chip-chat" aria-hidden="true"></span>
+          <strong>协作落地</strong>
+        </button>
+      </div>
+      <p class="team-value-status reveal" id="team-value-status" aria-live="polite">期待用设计能力，与团队一起创造更多可能。</p>
+    </section>
+
+    <section class="section-block contact-section thank-section" id="contact">
+      <div class="thank-copy reveal">
+        <span>05 / THANK YOU</span>
+        <h2><strong>THANK YOU /</strong><em>感谢各位 HR</em></h2>
+        <p>期待把温暖、有创意、有落地性的设计带到真实项目里。</p>
+      </div>
+      <div class="thank-planet reveal" aria-hidden="true">
+        <div class="planet-orbit orbit-a"></div>
+        <div class="planet-orbit orbit-b"></div>
+        <div class="planet-core">ZM</div>
+      </div>
+      <div class="thank-actions reveal" aria-label="联系与跳转操作">
+        <button class="thank-action" type="button" data-contact-target="#works">
+          <span>作品集</span>
+          <small>PORTFOLIO</small>
+        </button>
+        <button class="thank-action" type="button" data-contact-target="#skills">
+          <span>创意构思</span>
+          <small>IDEATION</small>
+        </button>
+        <button class="thank-action" type="button" data-contact-target="#collab">
+          <span>沟通协作</span>
+          <small>COMMUNICATION</small>
+        </button>
+        <a class="thank-action" href="mailto:z19262413802@qq.com">
+          <span>联系我</span>
+          <small>CONTACT ME</small>
+        </a>
+        <button class="thank-email magnetic" type="button" data-copy-email="z19262413802@qq.com">
+          <span>z19262413802@qq.com</span>
+        </button>
+      </div>
+      <p class="thank-status reveal" id="thank-status" aria-live="polite">真诚合作 · 用心设计 · 创造价值 · 落地执行 · 一起打造有温度的好设计</p>
+    </section>
+  </main>
+
+  <div class="project-modal" id="project-modal" aria-hidden="true">
+    <div class="project-dialog" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+      <button class="modal-close" type="button" aria-label="关闭完整作品">×</button>
+      <div class="modal-nav" aria-label="项目切换">
+        <button class="modal-nav-btn" type="button" data-modal-prev aria-label="上一个项目">‹</button>
+        <button class="modal-nav-btn" type="button" data-modal-next aria-label="下一个项目">›</button>
+      </div>
+      <div class="project-summary">
+        <p id="project-modal-label">PROJECT DETAIL</p>
+        <h2 id="project-modal-title"></h2>
+        <p id="project-modal-text"></p>
+        <div class="project-tags" id="project-modal-tags"></div>
+        <div class="project-detail-grid" id="project-modal-details"></div>
+      </div>
+      <div class="project-gallery" id="project-modal-gallery"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
